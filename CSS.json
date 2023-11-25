@@ -1,0 +1,42 @@
+[
+  {
+    "title": "What Is Css Shortcut ",
+    "answer_1": "Cacading Style Sheet",
+    "answer_2": "Corner Salary Sort",
+    "answer_3": "Car Storage Summer",
+    "answer_4": "Cave Sun Sea",
+    "right_answer": "Cascading Style Sheet"
+  },
+  {
+    "title": "Which Domain For Css File",
+    "answer_1": "index.txt",
+    "answer_2": "index.pdf",
+    "answer_3": "index.css",
+    "answer_4": "index.js",
+    "right_answer": "index.css"
+  },
+  {
+    "title": "Which Property Can Change The Cover Of Website Page",
+    "answer_1": "Color:",
+    "answer_2": "Text-decoration-color",
+    "answer_3": "Border-color",
+    "answer_4": "Background-color",
+    "right_answer": "Background-color"
+  },
+  {
+    "title": "How Many Ways We Can Write Css Code",
+    "answer_1": "1",
+    "answer_2": "2",
+    "answer_3": "4",
+    "answer_4": "3",
+    "right_answer": "3"
+  },
+  {
+    "title": "Which Property and value We Can Inline The Elements ",
+    "answer_1": "display:flex;",
+    "answer_2": "display:inline-block;",
+    "answer_3": "display:inline;",
+    "answer_4": "All Answers",
+    "right_answer": "All Answers"
+  }
+]

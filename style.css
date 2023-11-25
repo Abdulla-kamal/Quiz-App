@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cairo', sans-serif;
+}
+
+.quiz-app {
+    margin: 20px auto;
+    width: 800px;
+    background-color: #f7f7f7f7;
+    padding: 20px;
+}
+
+.quiz-app .info {
+    display: flex;
+}
+
+.quiz-app .info .category,
+.quiz-app .info .count {
+    flex: 1;
+    background-color: white;
+    margin: 5px;
+    padding: 15px;
+}
+
+.quiz-app .info .count {
+    text-align: right;
+}
+
+.quiz-app .quiz-area {
+    background-color: white;
+    padding:15px;
+    margin: 5px;
+}
+
+.quiz-app h2{
+    margin: 0;
+}
+
+.quiz-app .answers-area {
+    margin-top: 10px;
+} 
+
+.quiz-app .answers-area .answer {
+background-color: white;
+padding: 15px;
+font-weight: bold;
+font-size: 14px;
+color: #777;
+}
+
+.quiz-app .answers-area .answer:not(:last-child) {
+    border-bottom: solid 1px #f5ebeb;
+}
+
+input {
+   background-color: #0025ff;
+}
+
+
+.quiz-app .answers-area .answer label,
+.quiz-app .answers-area .answer input{
+cursor: pointer;
+}
+
+.quiz-app .answers-area .answer input:checked + label {
+    color: #0078ff;
+}
+
+.quiz-app button.submit {
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    border: none;
+    background-color: #0078ff;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.quiz-app .bullets {
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.quiz-app .bullets .spans {
+    flex: 1;
+    display: flex;
+    position: relative;
+}
+
+
+
+.quiz-app .bullets .spans span {
+    width: 20px;
+    height: 20px;
+    background-color: #c0b1b1;
+    border-radius: 50%;
+    margin-right: 5px;
+    z-index: 3;
+}
+
+.quiz-app .bullets .spans span.on {
+    background-color: #0078ff;
+}
+
+.quiz-app .bullets .countDown {
+    flex: 1;
+    text-align: right;
+}
+
+.results {
+    background-color: white;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.results span {
+    font-weight: bold;
+}
+
+.results span.bad{
+    color: red;
+}
+.results span.good{
+    color: rgb(47, 234, 47);
+}
+.results span.perfect{
+    color: #0078ff;
+}

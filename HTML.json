@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Why We Use <br> Element",
+    "answer_1": "To Make Text Bold",
+    "answer_2": "To Make Text Italic",
+    "answer_3": "To Add Breakline",
+    "answer_4": "To Add Horizontal Line",
+    "right_answer": "To Add Breakline"
+  },
+  {
+    "title": "Why We Use <hr> Element",
+    "answer_1": "To Make Text Bold",
+    "answer_2": "To Make Text Italic",
+    "answer_3": "To Add Breakline",
+    "answer_4": "To Add Horizontal Line",
+    "right_answer": "To Add Horizontal Line"
+  },
+  {
+    "title": "Which Element We Use For A Big Title",
+    "answer_1": "<img> Element",
+    "answer_2": "<title> Element",
+    "answer_3": "<h1> Element",
+    "answer_4": "<h3> Element",
+    "right_answer": "<h1> Element"
+  },
+  {
+    "title": "Does The <img> Element Have A href Atribute ",
+    "answer_1": "No",
+    "answer_2": "Yes And We Set Url In It",
+    "answer_3": "Yes With Many Atributes",
+    "answer_4": "Not All",
+    "right_answer": "No"
+  },
+  {
+    "title": "In Which Position We Write The Page Content ",
+    "answer_1": "In <head> Tag",
+    "answer_2": "In <html> Tag",
+    "answer_3": "In <body> Tag",
+    "answer_4": "In <title> Tag",
+    "right_answer": "In <body> Tag"
+  },
+  {
+    "title": "Which Element We Use To Set Url In My Website ",
+    "answer_1": "<url> Element",
+    "answer_2": "<link> Element",
+    "answer_3": "<a> Element",
+    "answer_4": "<img> Element",
+    "right_answer": "<a> Element"
+  }
+]
